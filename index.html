@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/23330d1986.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="id.css">
+    <title>ID Card Generator</title>
+</head>
+<body>
+    <div class="main">
+    <form id="idg">
+        <div id="id-container" class="id-container">
+            <div id="head" class="head">
+                <h1>ID CARD GENERATOR</h1>
+            </div>
+            <div id="id-form" class="id-form">
+                <h2>Name</h2>
+                <input type="text" name="name" placeholder="" class="input-field">
+                <h2>Roll number</h2>
+                <input type="number" name="rollNumber" placeholder="" class="input-field">
+                <h2>Group</h2>
+                <input type="text" name="group" placeholder="" class="input-field">
+                <h2>Year</h2>
+                <input type="number" name="year" placeholder="" class="input-field">
+            </div>
+            <div id="formbtns" class="btns">
+                <button id="download-btn" type="button">Generate   <i class="fa-solid fa-wand-sparkles"></i></button>
+            </div>
+        </div>
+    </form>
+    <div id="card" class="card">
+        <div id="bg-head" class="bg-head">
+            <h1>Id-card</h1>
+        </div>
+        <div id="id-body" class="id-body">
+            <h2>@Name</h2>
+            <p>1234</p>
+            <h2>xyz</h2>
+            <p>1234</p>
+        </div>
+        <div id="qr" class="qr"></div>
+        <div id="footer" class="footer">
+            <p>@anyhting</p>
+        </div>
+    
+    </div>
+    <div id="button-container" class="btn2">
+        <button id="download" class="down">Download <i class="fa-solid fa-download"></i></button>
+        <button id="createnew" class="new">Create new</button>
+    </div>
+</div>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.min.js"></script>
+    <script src="id.js"></script>
+</body>
+</html>
